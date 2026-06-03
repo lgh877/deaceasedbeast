@@ -1,0 +1,12 @@
+run/
+.mcreator/
+.idea/
+models/
+build/
+.eclipse/
+.gradle/
+gradle/
+build.gradle
+gradlew
+gradlew.bat
+mcreator.gradle
