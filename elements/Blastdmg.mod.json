@@ -1,0 +1,12 @@
+{
+  "_fv": 73,
+  "_type": "damagetype",
+  "definition": {
+    "exhaustion": 0.3,
+    "scaling": "never",
+    "effects": "freezing",
+    "normalDeathMessage": "%1$s blasted to dust",
+    "itemDeathMessage": "%1$s was blasted to dust %2$s using %3$s",
+    "playerDeathMessage": "%1$s got blasted to dust whilst trying to escape %2$s"
+  }
+}

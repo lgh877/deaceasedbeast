@@ -1,0 +1,1678 @@
+{
+  "mod_elements": [
+    {
+      "name": "Theface",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "theface",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/entity/ThefaceEntity.java",
+          "src/main/java/net/mcreator/deaceased/client/renderer/ThefaceRenderer.java",
+          "src/main/resources/assets/deaceased/models/item/theface_spawn_egg.json",
+          "src/main/java/net/mcreator/deaceased/entity/model/ThefaceModel.java"
+        ]
+      },
+      "path": "~/mobs/Theface"
+    },
+    {
+      "name": "Cancelwalk",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cancelwalk",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/deaceased/procedures/CancelwalkProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/mobs/Theface"
+    },
+    {
+      "name": "Wrapped",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wrapped",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/potion/WrappedMobEffect.java"
+        ]
+      },
+      "path": "~/mobs/Theface"
+    },
+    {
+      "name": "Warppeddelay",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warppeddelay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/potion/WarppeddelayMobEffect.java"
+        ]
+      },
+      "path": "~/mobs/Theface"
+    },
+    {
+      "name": "WarppeddelayOnEffectActiveTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warppeddelay_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/procedures/WarppeddelayOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/mobs/Theface"
+    },
+    {
+      "name": "Boulder",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boulder",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/client/renderer/BoulderRenderer.java",
+          "src/main/resources/assets/deaceased/models/item/boulder_spawn_egg.json",
+          "src/main/java/net/mcreator/deaceased/entity/BoulderEntity.java",
+          "src/main/java/net/mcreator/deaceased/entity/model/BoulderModel.java"
+        ]
+      },
+      "path": "~/mobs/Theface/boulders"
+    },
+    {
+      "name": "BoulderOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boulder_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/procedures/BoulderOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/mobs/Theface/boulders"
+    },
+    {
+      "name": "BoulderEntityFalls",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boulder_entity_falls",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/procedures/BoulderEntityFallsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/mobs/Theface/boulders"
+    },
+    {
+      "name": "BoulderOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boulder_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/procedures/BoulderOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/mobs/Theface/boulders"
+    },
+    {
+      "name": "Icon1",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icon_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/item/Icon1Item.java",
+          "src/main/resources/assets/deaceased/models/item/icon_1.json"
+        ]
+      },
+      "path": "~/mobs/Theface"
+    },
+    {
+      "name": "L4d2achievementtank",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "l_4d_2achievementtank",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/deaceased/advancements/l_4d_2achievementtank.json"
+        ]
+      },
+      "path": "~/mobs/Theface"
+    },
+    {
+      "name": "BoulderEntityDies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boulder_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/procedures/BoulderEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/mobs/Theface"
+    },
+    {
+      "name": "Tougue",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "tougue",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/deaceased/particles/tougue.json",
+          "src/main/java/net/mcreator/deaceased/client/particle/TougueParticle.java"
+        ]
+      },
+      "path": "~/mobs/Theface"
+    },
+    {
+      "name": "ServerLevelRelatedUtils",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "server_level_related_utils",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/ServerLevelRelatedUtils.java"
+        ]
+      }
+    },
+    {
+      "name": "Gutsface",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gutsface",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/deaceased/particles/gutsface.json",
+          "src/main/java/net/mcreator/deaceased/client/particle/GutsfaceParticle.java"
+        ]
+      },
+      "path": "~/mobs/Theface"
+    },
+    {
+      "name": "ThefaceEntityDies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "theface_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/procedures/ThefaceEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/mobs/Theface"
+    },
+    {
+      "name": "Facetick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "facetick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/procedures/FacetickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/mobs/Theface"
+    },
+    {
+      "name": "ThefaceEntityIsHurt",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "theface_entity_is_hurt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/procedures/ThefaceEntityIsHurtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/mobs/Theface"
+    },
+    {
+      "name": "Thedigger",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "thedigger",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/entity/model/ThediggerModel.java",
+          "src/main/resources/assets/deaceased/models/item/thedigger_spawn_egg.json",
+          "src/main/java/net/mcreator/deaceased/client/renderer/ThediggerRenderer.java",
+          "src/main/java/net/mcreator/deaceased/entity/ThediggerEntity.java"
+        ]
+      },
+      "path": "~/mobs/Thedigger"
+    },
+    {
+      "name": "ThediggerOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thedigger_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/procedures/ThediggerOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/mobs/Thedigger"
+    },
+    {
+      "name": "WaveEffect",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "wave_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/WaveEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "ThediggerEntityIsHurt",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thedigger_entity_is_hurt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/procedures/ThediggerEntityIsHurtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/mobs/Thedigger"
+    },
+    {
+      "name": "ThediggerDeathTimeIsReached",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thedigger_death_time_is_reached",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/procedures/ThediggerDeathTimeIsReachedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/mobs/Thedigger"
+    },
+    {
+      "name": "Flayedmanhead",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "flayedmanhead",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/client/renderer/FlayedmanheadRenderer.java",
+          "src/main/java/net/mcreator/deaceased/entity/FlayedmanheadEntity.java",
+          "src/main/java/net/mcreator/deaceased/entity/model/FlayedmanheadModel.java",
+          "src/main/resources/assets/deaceased/models/item/flayedmanhead_spawn_egg.json"
+        ]
+      },
+      "path": "~/mobs/Theflayedman"
+    },
+    {
+      "name": "Flayedmansections",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flayedmansections",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/entity/FlayedmansectionsEntity.java",
+          "src/main/java/net/mcreator/deaceased/client/renderer/FlayedmansectionsRenderer.java",
+          "src/main/resources/assets/deaceased/models/item/flayedmansections_spawn_egg.json",
+          "src/main/java/net/mcreator/deaceased/entity/model/FlayedmansectionsModel.java"
+        ]
+      },
+      "path": "~/mobs/Theflayedman"
+    },
+    {
+      "name": "Flayedmantail",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flayedmantail",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/client/renderer/FlayedmantailRenderer.java",
+          "src/main/resources/assets/deaceased/models/item/flayedmantail_spawn_egg.json",
+          "src/main/java/net/mcreator/deaceased/entity/model/FlayedmantailModel.java",
+          "src/main/java/net/mcreator/deaceased/entity/FlayedmantailEntity.java"
+        ]
+      },
+      "path": "~/mobs/Theflayedman"
+    },
+    {
+      "name": "Rotetopoint",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rotetopoint",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/deaceased/procedures/RotetopointProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/mobs/Theflayedman"
+    },
+    {
+      "name": "FlayedmanheadOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flayedmanhead_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/procedures/FlayedmanheadOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/mobs/Theflayedman"
+    },
+    {
+      "name": "FlayedmanheadOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flayedmanhead_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/procedures/FlayedmanheadOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/mobs/Theflayedman"
+    },
+    {
+      "name": "FlayedmansectionsOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flayedmansections_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/procedures/FlayedmansectionsOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/mobs/Theflayedman"
+    },
+    {
+      "name": "FlayedmantailOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flayedmantail_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/procedures/FlayedmantailOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/mobs/Theflayedman"
+    },
+    {
+      "name": "HeadnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "headn_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/procedures/HeadnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/mobs/Theflayedman"
+    },
+    {
+      "name": "Gutsflayed",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gutsflayed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/client/particle/GutsflayedParticle.java",
+          "src/main/resources/assets/deaceased/particles/gutsflayed.json"
+        ]
+      },
+      "path": "~/mobs/Theface"
+    },
+    {
+      "name": "FlayedmansectionsEntityDies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flayedmansections_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/procedures/FlayedmansectionsEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/mobs/Theflayedman"
+    },
+    {
+      "name": "CircleTargetGoal",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "circle_target_goal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/CircleTargetGoal.java"
+        ]
+      }
+    },
+    {
+      "name": "StrafeDashGoal",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "strafe_dash_goal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/StrafeDashGoal.java"
+        ]
+      }
+    },
+    {
+      "name": "Deceasedmobs",
+      "type": "config",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deceasedmobs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/configuration/DeceasedmobsConfiguration.java"
+        ]
+      },
+      "path": "~/mobs"
+    },
+    {
+      "name": "Closeprox",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "closeprox",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/deaceased/procedures/CloseproxProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/mobs/Theface"
+    },
+    {
+      "name": "Excavation",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "excavation",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/deaceased/advancements/excavation.json"
+        ]
+      },
+      "path": "~/mobs/Thedigger"
+    },
+    {
+      "name": "ThediggerEntityDies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thedigger_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/procedures/ThediggerEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/mobs/Thedigger"
+    },
+    {
+      "name": "Goo",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "goo",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/entity/GooEntity.java"
+        ]
+      },
+      "path": "~/mobs/Theflayedman"
+    },
+    {
+      "name": "Gopart",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gopart",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/deaceased/particles/gopart.json",
+          "src/main/java/net/mcreator/deaceased/client/particle/GopartParticle.java"
+        ]
+      },
+      "path": "~/mobs/Theflayedman"
+    },
+    {
+      "name": "GooWhileProjectileFlyingTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goo_while_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/procedures/GooWhileProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/mobs/Theflayedman"
+    },
+    {
+      "name": "Gopart2",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gopart_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/client/particle/Gopart2Particle.java",
+          "src/main/resources/assets/deaceased/particles/gopart_2.json"
+        ]
+      },
+      "path": "~/mobs/Theflayedman"
+    },
+    {
+      "name": "ThediggerOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thedigger_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/procedures/ThediggerOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/mobs/Thedigger"
+    },
+    {
+      "name": "GuardianOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guardian_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/procedures/GuardianOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/mobs/Gateman"
+    },
+    {
+      "name": "Guardian",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guardian",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/client/renderer/GuardianRenderer.java",
+          "src/main/java/net/mcreator/deaceased/entity/model/GuardianModel.java",
+          "src/main/resources/assets/deaceased/models/item/guardian_spawn_egg.json",
+          "src/main/java/net/mcreator/deaceased/entity/GuardianEntity.java"
+        ]
+      },
+      "path": "~/mobs/Gateman"
+    },
+    {
+      "name": "Bugger",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bugger",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/client/renderer/BuggerRenderer.java",
+          "src/main/resources/data/deaceased/forge/biome_modifier/bugger_biome_modifier.json",
+          "src/main/java/net/mcreator/deaceased/entity/BuggerEntity.java",
+          "src/main/resources/assets/deaceased/models/item/bugger_spawn_egg.json",
+          "src/main/java/net/mcreator/deaceased/entity/model/BuggerModel.java"
+        ]
+      },
+      "path": "~/mobs/Gateman"
+    },
+    {
+      "name": "GuardianOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guardian_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/procedures/GuardianOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/mobs/Gateman"
+    },
+    {
+      "name": "BuggerOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bugger_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/procedures/BuggerOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/mobs/Gateman"
+    },
+    {
+      "name": "FlyToTargetGoal",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "fly_to_target_goal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/FlyToTargetGoal.java"
+        ]
+      }
+    },
+    {
+      "name": "GuardianEntityDies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guardian_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/procedures/GuardianEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/mobs/Gateman"
+    },
+    {
+      "name": "Order",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "order",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/potion/OrderMobEffect.java"
+        ]
+      },
+      "path": "~/mobs/Gateman"
+    },
+    {
+      "name": "Blastdmg",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blastdmg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/deaceased/damage_type/blastdmg.json"
+        ]
+      },
+      "path": "~/mobs/Stunner"
+    },
+    {
+      "name": "Stunner",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stunner",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/deaceased/models/item/stunner_spawn_egg.json",
+          "src/main/java/net/mcreator/deaceased/entity/layer/StunnerLayer.java",
+          "src/main/java/net/mcreator/deaceased/client/renderer/StunnerRenderer.java",
+          "src/main/java/net/mcreator/deaceased/entity/StunnerEntity.java",
+          "src/main/java/net/mcreator/deaceased/entity/model/StunnerModel.java"
+        ]
+      },
+      "path": "~/mobs/Stunner"
+    },
+    {
+      "name": "Enemystun",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enemystun",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/potion/EnemystunMobEffect.java"
+        ]
+      },
+      "path": "~/mobs/Stunner"
+    },
+    {
+      "name": "StunnerOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stunner_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/procedures/StunnerOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/mobs/Stunner"
+    },
+    {
+      "name": "Bouldered",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bouldered",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/deaceased/damage_type/bouldered.json"
+        ]
+      },
+      "path": "~/mobs/Theface/boulders"
+    },
+    {
+      "name": "GaleActiveTickCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gale_active_tick_condition",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/procedures/GaleActiveTickConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/mobs"
+    },
+    {
+      "name": "Gale",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gale",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/potion/GaleMobEffect.java"
+        ]
+      },
+      "path": "~/mobs"
+    },
+    {
+      "name": "Threatened",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "threatened",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deaceased/potion/ThreatenedMobEffect.java"
+        ]
+      },
+      "path": "~/mobs"
+    },
+    {
+      "name": "Choke",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "choke",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/deaceased/damage_type/choke.json"
+        ]
+      },
+      "path": "~/mobs/Theface"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "gutexplodes",
+      "files": [
+        "bidy_explodes"
+      ],
+      "category": "neutral",
+      "subtitle": "guts_explodes"
+    },
+    {
+      "name": "facefly",
+      "files": [
+        "facefly3",
+        "facefly2",
+        "facefly1"
+      ],
+      "category": "neutral",
+      "subtitle": "The Face Flying"
+    },
+    {
+      "name": "faceambt",
+      "files": [
+        "faceambt4",
+        "faceambt3",
+        "faceambt2",
+        "faceambt1"
+      ],
+      "category": "neutral",
+      "subtitle": "The Face Breathing"
+    },
+    {
+      "name": "facepain",
+      "files": [
+        "facepain4",
+        "facepain2",
+        "facepain1"
+      ],
+      "category": "neutral",
+      "subtitle": "The Face Agony"
+    },
+    {
+      "name": "facedamaged",
+      "files": [
+        "facehurt2",
+        "facehurt1"
+      ],
+      "category": "neutral",
+      "subtitle": "The Face Damaged"
+    },
+    {
+      "name": "faceopen",
+      "files": [
+        "faceopen2",
+        "faceopen1"
+      ],
+      "category": "neutral",
+      "subtitle": "The Face opening"
+    },
+    {
+      "name": "wrao",
+      "files": [
+        "shoot2",
+        "shoot1"
+      ],
+      "category": "neutral",
+      "subtitle": "The Face Wrap Tougue"
+    },
+    {
+      "name": "stonethrow",
+      "files": [
+        "throw3",
+        "throw2",
+        "throw1"
+      ],
+      "category": "neutral",
+      "subtitle": "Throwing Sound"
+    },
+    {
+      "name": "diggerambt_top",
+      "files": [
+        "diggersound4",
+        "diggersound3",
+        "diggersound2",
+        "diggersound1"
+      ],
+      "category": "neutral",
+      "subtitle": "Diggers Sounding like Mices"
+    },
+    {
+      "name": "diggerambt_down",
+      "files": [
+        "diggersoundmuffled4",
+        "diggersoundmuffled3",
+        "diggersoundmuffled2",
+        "diggersoundmuffled1"
+      ],
+      "category": "neutral",
+      "subtitle": "Diggers Sounding like Mices but Underground"
+    },
+    {
+      "name": "diggerhurt",
+      "files": [
+        "diggerhurt2",
+        "diggerhurt"
+      ],
+      "category": "neutral",
+      "subtitle": "Digger Hurts"
+    },
+    {
+      "name": "dive",
+      "files": [
+        "dive1"
+      ],
+      "category": "neutral",
+      "subtitle": "Dirt Dive"
+    },
+    {
+      "name": "doveup",
+      "files": [
+        "explosiondive"
+      ],
+      "category": "neutral",
+      "subtitle": "Dirt Diving up"
+    },
+    {
+      "name": "digdive",
+      "files": [
+        "updive_dig"
+      ],
+      "category": "neutral",
+      "subtitle": "Dig and Dive"
+    },
+    {
+      "name": "spew",
+      "files": [
+        "spew"
+      ],
+      "category": "neutral",
+      "subtitle": "guts spewing"
+    },
+    {
+      "name": "guardianambts",
+      "files": [
+        "guardianambt4",
+        "guadianambt3",
+        "guardianambt2",
+        "guardian_ambt1"
+      ],
+      "category": "neutral",
+      "subtitle": "Guardian Groaning"
+    },
+    {
+      "name": "stunnerambt",
+      "files": [
+        "stunnerambt3",
+        "tunnerambt1",
+        "tunnerambt2"
+      ],
+      "category": "neutral",
+      "subtitle": "Stunner Ambience"
+    },
+    {
+      "name": "stunnerhurt",
+      "files": [
+        "stunnerhurt1",
+        "stunnerhurt2",
+        "stunnerhurt3",
+        "stunnerhurt4"
+      ],
+      "category": "neutral",
+      "subtitle": "Stunner Hurt"
+    },
+    {
+      "name": "stunnerimpact",
+      "files": [
+        "laserimapct3",
+        "laserimpact1",
+        "laserimpact2"
+      ],
+      "category": "neutral",
+      "subtitle": "Stunner Laser Impact"
+    },
+    {
+      "name": "stunnercharge",
+      "files": [
+        "stunner_startingup"
+      ],
+      "category": "neutral",
+      "subtitle": "Stunner Charging Up"
+    },
+    {
+      "name": "stunnerdeath",
+      "files": [
+        "stunnerdeath"
+      ],
+      "category": "neutral",
+      "subtitle": "Stunner Death"
+    }
+  ],
+  "tag_elements": {
+    "ENTITIES:deceasedcraft:external_entity": [
+      "EXTERNAL:undead_revamp2:bomber",
+      "EXTERNAL:undead_revamp2:the_moonflower",
+      "EXTERNAL:undead_revamp2:thesmoker",
+      "EXTERNAL:undead_revamp2:thepregnant",
+      "EXTERNAL:undead_revamp2:thespitter",
+      "EXTERNAL:undead_revamp2:therod",
+      "EXTERNAL:undead_revamp2:thelurker",
+      "EXTERNAL:undead_revamp2:thegliter",
+      "EXTERNAL:undead_revamp2:thebidy",
+      "EXTERNAL:undead_revamp2:theheavy",
+      "EXTERNAL:zombie_extreme:explosive_infected",
+      "EXTERNAL:zombie_extreme:boomer",
+      "EXTERNAL:zombie_extreme:clicker",
+      "EXTERNAL:zombie_extreme:crawler",
+      "EXTERNAL:zombie_extreme:devestated",
+      "EXTERNAL:zombie_extreme:runner"
+    ],
+    "ENTITIES:deceasedcraft:tag": [
+      "EntityZombie",
+      "CUSTOM:Boulder",
+      "EntityZombieVillager",
+      "EntityHusk",
+      "EntityDrowned"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "subtitles.facemove": "Face Movement",
+      "subtitles.doveup": "Dirt Diving up",
+      "effect.deaceased.order": "Order",
+      "entity.deaceased.flayedmantail": "Flayedman Tail",
+      "subtitles.facepain": "The Face Agony",
+      "effect.deaceased.warppeddelay": "Wrapped",
+      "item.deaceased.boulder_spawn_egg": "Boulder Spawn Egg",
+      "death.attack.blastdmg.item": "%1$s was blasted to dust %2$s using %3$s",
+      "entity.deaceased.stunner": "The Stunner",
+      "subtitles.diggerhurt": "Digger Hurts",
+      "item.deaceased.bugger_spawn_egg": "Bugger Spawn Egg",
+      "item.deaceased.icon_1": "Icon 1",
+      "subtitles.spew": "guts spewing",
+      "item.deaceased.guardian_spawn_egg": "Guardian Spawn Egg",
+      "item.deaceased.theface_spawn_egg": "The Face Spawn Egg",
+      "effect.deaceased.threatened": "Threatened",
+      "death.attack.bouldered.item": "%1$s was stoned by %2$s using %3$s",
+      "death.attack.bouldered.player": "%1$s rocked %2$s",
+      "entity.deaceased.flayedmansections": "Flayedman Sections",
+      "death.attack.bouldered": "%1$s rocked",
+      "subtitles.facefly": "The Face Flying",
+      "item.deaceased.thedigger_spawn_egg": "The Digger Spawn Egg",
+      "subtitles.facefloat": "levitatation_face",
+      "subtitles.facelevitate": "Face Movement",
+      "subtitles.stunnerimpact": "Stunner Laser Impact",
+      "entity.deaceased.flayedmanhead": "Flayedman Head",
+      "subtitles.digdive": "Dig and Dive",
+      "subtitles.stunnercharge": "Stunner Charging Up",
+      "entity.deaceased.bugger": "Bugger",
+      "subtitles.dive": "Dirt Dive",
+      "subtitles.faceopen": "The Face opening",
+      "subtitles.diggerambt_down": "Diggers Sounding like Mices but Underground",
+      "advancements.l_4d_2achievementtank.title": "ROCKY HORROR PICTURE THROW",
+      "advancements.excavation.descr": "Kill a Digger while its underground",
+      "subtitles.facedamaged": "The Face Damaged",
+      "death.attack.choke.item": "%1$s was strangled by %2$s using %3$s",
+      "death.attack.blastdmg.player": "%1$s got blasted to dust whilst trying to escape %2$s",
+      "advancements.excavation.title": "I aint playing no mole wacking game",
+      "subtitles.stunnerdeath": "Stunner Death",
+      "advancements.l_4d_2achievementtank.descr": "destroying The Face\u0027s rock in mid-air",
+      "subtitles.guardianambts": "Guardian Groaning",
+      "entity.deaceased.theface": "The Face",
+      "death.attack.blastdmg": "%1$s blasted to dust",
+      "subtitles.faceambt": "The Face Breathing",
+      "entity.deaceased.thedigger": "The Digger",
+      "item.deaceased.stunner_spawn_egg": "The Stunner Spawn Egg",
+      "entity.deaceased.guardian": "Guardian",
+      "item.deaceased.flayedmansections_spawn_egg": "Flayedman Sections Spawn Egg",
+      "entity.deaceased.boulder": "Boulder",
+      "subtitles.gutexplodes": "guts_explodes",
+      "subtitles.stonethrow": "Throwing Sound",
+      "effect.deaceased.enemystun": "Enemystun",
+      "subtitles.wrao": "The Face Wrap Tougue",
+      "subtitles.toungueshot": "The Face Tougue Shot",
+      "subtitles.stunnerambt": "Stunner Ambience",
+      "death.attack.choke.player": "%1$s died whilst trying to escape %2$s",
+      "item.deaceased.flayedmantail_spawn_egg": "Flayedman Tail Spawn Egg",
+      "subtitles.diggerambt_top": "Diggers Sounding like Mices",
+      "subtitles.stunnerhurt": "Stunner Hurt",
+      "item.deaceased.flayedmanhead_spawn_egg": "Flayedman Head Spawn Egg",
+      "death.attack.choke": "%1$s squeezed to death",
+      "effect.deaceased.wrapped": "Wrapped",
+      "effect.deaceased.gale": "Gale"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "mobs",
+        "children": [
+          {
+            "name": "Theface",
+            "children": [
+              {
+                "name": "boulders",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Thedigger",
+            "children": []
+          },
+          {
+            "name": "Theflayedman",
+            "children": []
+          },
+          {
+            "name": "Gateman",
+            "children": []
+          },
+          {
+            "name": "Stunner",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "deaceased",
+    "modName": "Deaceased",
+    "version": "1.0.0",
+    "author": "Ping, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.deaceased"
+  },
+  "mcreatorVersion": 202400452410
+}

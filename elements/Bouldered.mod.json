@@ -1,0 +1,12 @@
+{
+  "_fv": 73,
+  "_type": "damagetype",
+  "definition": {
+    "exhaustion": 0.9,
+    "scaling": "always",
+    "effects": "burning",
+    "normalDeathMessage": "%1$s rocked",
+    "itemDeathMessage": "%1$s was stoned by %2$s using %3$s",
+    "playerDeathMessage": "%1$s rocked %2$s"
+  }
+}

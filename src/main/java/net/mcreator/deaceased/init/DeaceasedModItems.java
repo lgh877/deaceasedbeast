@@ -1,0 +1,31 @@
+
+/*
+ *    MCreator note: This file will be REGENERATED on each build.
+ */
+package net.mcreator.deaceased.init;
+
+import net.minecraftforge.registries.RegistryObject;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.ForgeSpawnEggItem;
+
+import net.minecraft.world.item.Item;
+
+import net.mcreator.deaceased.item.Icon1Item;
+import net.mcreator.deaceased.DeaceasedMod;
+
+public class DeaceasedModItems {
+	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, DeaceasedMod.MODID);
+	public static final RegistryObject<Item> THEFACE_SPAWN_EGG = REGISTRY.register("theface_spawn_egg", () -> new ForgeSpawnEggItem(DeaceasedModEntities.THEFACE, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> BOULDER_SPAWN_EGG = REGISTRY.register("boulder_spawn_egg", () -> new ForgeSpawnEggItem(DeaceasedModEntities.BOULDER, -10066330, -13421773, new Item.Properties()));
+	public static final RegistryObject<Item> ICON_1 = REGISTRY.register("icon_1", () -> new Icon1Item());
+	public static final RegistryObject<Item> THEDIGGER_SPAWN_EGG = REGISTRY.register("thedigger_spawn_egg", () -> new ForgeSpawnEggItem(DeaceasedModEntities.THEDIGGER, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> FLAYEDMANHEAD_SPAWN_EGG = REGISTRY.register("flayedmanhead_spawn_egg", () -> new ForgeSpawnEggItem(DeaceasedModEntities.FLAYEDMANHEAD, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> FLAYEDMANSECTIONS_SPAWN_EGG = REGISTRY.register("flayedmansections_spawn_egg", () -> new ForgeSpawnEggItem(DeaceasedModEntities.FLAYEDMANSECTIONS, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> FLAYEDMANTAIL_SPAWN_EGG = REGISTRY.register("flayedmantail_spawn_egg", () -> new ForgeSpawnEggItem(DeaceasedModEntities.FLAYEDMANTAIL, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> GUARDIAN_SPAWN_EGG = REGISTRY.register("guardian_spawn_egg", () -> new ForgeSpawnEggItem(DeaceasedModEntities.GUARDIAN, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> BUGGER_SPAWN_EGG = REGISTRY.register("bugger_spawn_egg", () -> new ForgeSpawnEggItem(DeaceasedModEntities.BUGGER, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> STUNNER_SPAWN_EGG = REGISTRY.register("stunner_spawn_egg", () -> new ForgeSpawnEggItem(DeaceasedModEntities.STUNNER, -1, -1, new Item.Properties()));
+	// Start of user code block custom items
+	// End of user code block custom items
+}

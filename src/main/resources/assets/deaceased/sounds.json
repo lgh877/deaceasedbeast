@@ -1,0 +1,307 @@
+{
+  "gutexplodes": {
+    "subtitle": "subtitles.gutexplodes",
+    "sounds": [
+      {
+        "name": "deaceased:bidy_explodes",
+        "stream": false
+      }
+    ]
+  },
+  "facefly": {
+    "subtitle": "subtitles.facefly",
+    "sounds": [
+      {
+        "name": "deaceased:facefly3",
+        "stream": false
+      },
+      {
+        "name": "deaceased:facefly2",
+        "stream": false
+      },
+      {
+        "name": "deaceased:facefly1",
+        "stream": false
+      }
+    ]
+  },
+  "faceambt": {
+    "subtitle": "subtitles.faceambt",
+    "sounds": [
+      {
+        "name": "deaceased:faceambt4",
+        "stream": false
+      },
+      {
+        "name": "deaceased:faceambt3",
+        "stream": false
+      },
+      {
+        "name": "deaceased:faceambt2",
+        "stream": false
+      },
+      {
+        "name": "deaceased:faceambt1",
+        "stream": false
+      }
+    ]
+  },
+  "facepain": {
+    "subtitle": "subtitles.facepain",
+    "sounds": [
+      {
+        "name": "deaceased:facepain4",
+        "stream": false
+      },
+      {
+        "name": "deaceased:facepain2",
+        "stream": false
+      },
+      {
+        "name": "deaceased:facepain1",
+        "stream": false
+      }
+    ]
+  },
+  "facedamaged": {
+    "subtitle": "subtitles.facedamaged",
+    "sounds": [
+      {
+        "name": "deaceased:facehurt2",
+        "stream": false
+      },
+      {
+        "name": "deaceased:facehurt1",
+        "stream": false
+      }
+    ]
+  },
+  "faceopen": {
+    "subtitle": "subtitles.faceopen",
+    "sounds": [
+      {
+        "name": "deaceased:faceopen2",
+        "stream": false
+      },
+      {
+        "name": "deaceased:faceopen1",
+        "stream": false
+      }
+    ]
+  },
+  "wrao": {
+    "subtitle": "subtitles.wrao",
+    "sounds": [
+      {
+        "name": "deaceased:shoot2",
+        "stream": false
+      },
+      {
+        "name": "deaceased:shoot1",
+        "stream": false
+      }
+    ]
+  },
+  "stonethrow": {
+    "subtitle": "subtitles.stonethrow",
+    "sounds": [
+      {
+        "name": "deaceased:throw3",
+        "stream": false
+      },
+      {
+        "name": "deaceased:throw2",
+        "stream": false
+      },
+      {
+        "name": "deaceased:throw1",
+        "stream": false
+      }
+    ]
+  },
+  "diggerambt_top": {
+    "subtitle": "subtitles.diggerambt_top",
+    "sounds": [
+      {
+        "name": "deaceased:diggersound4",
+        "stream": false
+      },
+      {
+        "name": "deaceased:diggersound3",
+        "stream": false
+      },
+      {
+        "name": "deaceased:diggersound2",
+        "stream": false
+      },
+      {
+        "name": "deaceased:diggersound1",
+        "stream": false
+      }
+    ]
+  },
+  "diggerambt_down": {
+    "subtitle": "subtitles.diggerambt_down",
+    "sounds": [
+      {
+        "name": "deaceased:diggersoundmuffled4",
+        "stream": false
+      },
+      {
+        "name": "deaceased:diggersoundmuffled3",
+        "stream": false
+      },
+      {
+        "name": "deaceased:diggersoundmuffled2",
+        "stream": false
+      },
+      {
+        "name": "deaceased:diggersoundmuffled1",
+        "stream": false
+      }
+    ]
+  },
+  "diggerhurt": {
+    "subtitle": "subtitles.diggerhurt",
+    "sounds": [
+      {
+        "name": "deaceased:diggerhurt2",
+        "stream": false
+      },
+      {
+        "name": "deaceased:diggerhurt",
+        "stream": false
+      }
+    ]
+  },
+  "dive": {
+    "subtitle": "subtitles.dive",
+    "sounds": [
+      {
+        "name": "deaceased:dive1",
+        "stream": false
+      }
+    ]
+  },
+  "doveup": {
+    "subtitle": "subtitles.doveup",
+    "sounds": [
+      {
+        "name": "deaceased:explosiondive",
+        "stream": false
+      }
+    ]
+  },
+  "digdive": {
+    "subtitle": "subtitles.digdive",
+    "sounds": [
+      {
+        "name": "deaceased:updive_dig",
+        "stream": false
+      }
+    ]
+  },
+  "spew": {
+    "subtitle": "subtitles.spew",
+    "sounds": [
+      {
+        "name": "deaceased:spew",
+        "stream": false
+      }
+    ]
+  },
+  "guardianambts": {
+    "subtitle": "subtitles.guardianambts",
+    "sounds": [
+      {
+        "name": "deaceased:guardianambt4",
+        "stream": false
+      },
+      {
+        "name": "deaceased:guadianambt3",
+        "stream": false
+      },
+      {
+        "name": "deaceased:guardianambt2",
+        "stream": false
+      },
+      {
+        "name": "deaceased:guardian_ambt1",
+        "stream": false
+      }
+    ]
+  },
+  "stunnerambt": {
+    "subtitle": "subtitles.stunnerambt",
+    "sounds": [
+      {
+        "name": "deaceased:stunnerambt3",
+        "stream": false
+      },
+      {
+        "name": "deaceased:tunnerambt1",
+        "stream": false
+      },
+      {
+        "name": "deaceased:tunnerambt2",
+        "stream": false
+      }
+    ]
+  },
+  "stunnerhurt": {
+    "subtitle": "subtitles.stunnerhurt",
+    "sounds": [
+      {
+        "name": "deaceased:stunnerhurt1",
+        "stream": false
+      },
+      {
+        "name": "deaceased:stunnerhurt2",
+        "stream": false
+      },
+      {
+        "name": "deaceased:stunnerhurt3",
+        "stream": false
+      },
+      {
+        "name": "deaceased:stunnerhurt4",
+        "stream": false
+      }
+    ]
+  },
+  "stunnerimpact": {
+    "subtitle": "subtitles.stunnerimpact",
+    "sounds": [
+      {
+        "name": "deaceased:laserimapct3",
+        "stream": false
+      },
+      {
+        "name": "deaceased:laserimpact1",
+        "stream": false
+      },
+      {
+        "name": "deaceased:laserimpact2",
+        "stream": false
+      }
+    ]
+  },
+  "stunnercharge": {
+    "subtitle": "subtitles.stunnercharge",
+    "sounds": [
+      {
+        "name": "deaceased:stunner_startingup",
+        "stream": false
+      }
+    ]
+  },
+  "stunnerdeath": {
+    "subtitle": "subtitles.stunnerdeath",
+    "sounds": [
+      {
+        "name": "deaceased:stunnerdeath",
+        "stream": false
+      }
+    ]
+  }
+}

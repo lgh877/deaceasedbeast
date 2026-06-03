@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "undead_revamp2:bomber",
+    "undead_revamp2:the_moonflower",
+    "undead_revamp2:thesmoker",
+    "undead_revamp2:thepregnant",
+    "undead_revamp2:thespitter",
+    "undead_revamp2:therod",
+    "undead_revamp2:thelurker",
+    "undead_revamp2:thegliter",
+    "undead_revamp2:thebidy",
+    "undead_revamp2:theheavy",
+    "zombie_extreme:explosive_infected",
+    "zombie_extreme:boomer",
+    "zombie_extreme:clicker",
+    "zombie_extreme:crawler",
+    "zombie_extreme:devestated",
+    "zombie_extreme:runner"
+  ]
+}
