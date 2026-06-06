@@ -1,7 +1,6 @@
 run/
 .mcreator/
 .idea/
-models/
 build/
 .eclipse/
 .gradle/
